@@ -1,5 +1,3 @@
-import 'dart:core';
-
 class Solution {
   List<int> twoSum(List<int> nums, int target) {
       if (nums == null){
