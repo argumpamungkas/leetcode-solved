@@ -1,7 +1,7 @@
 class Solution {
   int singleNumber(List<int> nums) {
       int result = 0;
-      if(nums.length == 0){
+      if(nums.length == 1){
           return nums.first;
       } else {
         nums.sort();
