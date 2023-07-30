@@ -1,7 +1,3 @@
-I digunakan sebelum V dan X untuk mendapatkan nilai 4 dan 9
-X digunakan sebelum L dan C untuk mendapatkan nilai 40 dan 90
-C digunakan sebelum D dan CM untuk mendapatkan nilai 400 dan 900
-
 class Solution {
   int romanToInt(String s) {
     Map<String, int> symbol = {
