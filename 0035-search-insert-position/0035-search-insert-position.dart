@@ -11,10 +11,8 @@ class Solution {
             } else if (target > nums[i]){
                 if(i >= nums.length - 1){
                     return i + 1;
-                } else {
-                    continue;
+                }
             }
-        }
         }
     }
       return 0;
