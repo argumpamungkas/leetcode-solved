@@ -1,8 +1,5 @@
 class Solution {
   void moveZeroes(List<int> nums) {
-      // if(nums.isEmpty){
-      //     return 0;
-      // }
       if(nums.length == 1){
           nums;
       }
